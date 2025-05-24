@@ -11,7 +11,7 @@ namespace LeetCode
         public static bool main()
         {
             int[] numbers = { 1, 2, 4, 1, 9, 3, 6, 7 };
-            HashSet<int> set = new HashSet<int>(numbers);
+            HashSet<int> set = new HashSet<int>();
             for (int i = 0; i < numbers.Length; i++)
             {
                 if (set.Contains(numbers[i]))
