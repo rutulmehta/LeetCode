@@ -2,5 +2,5 @@
 using LeetCode;
 
 Console.WriteLine("Hello, World!");
-var returnValue = LeetCode_217.main();
+var returnValue = LeetCode_242.IsAnagram2("anagram", "nagaram");
 Console.WriteLine(returnValue);
